@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_carastrianimales
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_here   # Cambia esta contraseña
+      MYSQL_DATABASE: carastrianimales          # Nombre de la base de datos
+      MYSQL_USER: root                          # Usuario
+      MYSQL_PASSWORD: root_password_here       # Contraseña del usuario
+    ports:
+      - "3306:3306"                             # Puerto del contenedor mapeado al puerto local
+    volumes:
+      - mysql_data:/var/lib/mysql              # Persistencia de datos
+
+volumes:
+  mysql_data:
