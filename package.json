@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.0",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.2",
+    "mysql2": "^3.12.0",
+    "sweetalert2": "^11.16.0",
+    "vue": "^3.2.13",
+    "vue-qrcode-reader": "^5.7.1",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/eslint-parser": "^7.12.16",
+    "@babel/preset-env": "^7.26.8",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "babel-loader": "^9.2.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "description": "## Project setup ``` npm install ```",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
